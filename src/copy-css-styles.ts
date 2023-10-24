@@ -34,6 +34,7 @@ export function copyCssStyles<T extends HTMLElement | SVGElement>(
   // fix background-clip: text
   if (diffStyle.get('background-clip')?.[0] === 'text') {
     cloned.classList.add('______background-clip--text')
+    clonedStyle.removeProperty('background')
   }
   // fix chromium
   // https://github.com/RigoCorp/html-to-image/blob/master/src/cssFixes.ts
