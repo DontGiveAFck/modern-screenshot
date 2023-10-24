@@ -1,8 +1,8 @@
 .DS_Store
 .env
 node_modules/
-dist/
-types/
+#dist/
+#types/
 
 # IDE user config
 .vscode/
