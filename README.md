@@ -1,5 +1,8 @@
 <h1 align="center">modern-screenshot</h1>
 
+<h2 align="center">FORK OF <a href="https://github.com/qq15725/modern-screenshot">
+THIS</a> LIBRARY WITH FIX FOR FONTS TEXTURE</h2>
+
 <p align="center">
   <a href="https://unpkg.com/modern-screenshot">
     <img src="https://img.shields.io/bundlephobia/minzip/modern-screenshot" alt="Minzip">
